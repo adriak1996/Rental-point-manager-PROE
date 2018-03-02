@@ -4,9 +4,11 @@
 
 1) Assumptions
 	1a.) Simple console application written in C++
-	1b.) Ability to managing a sets of resources. Lists of:   	   		     commodities, customers and orders.
-	1c.) Implementation of two-level inheritance. Commodity has 
-	     2 subtypes: Suit and Dress. Dress has 1 subtype: Wedding  		     dress.
+	1b.) Ability to managing a sets of resources. 
+	     Lists of: commodities, customers and orders.
+	1c.) Implementation of two-level inheritance. 
+	     Commodity has 2 subtypes: Suit and Dress. 
+		 Dress has 1 subtype: Wedding dress.
 	1d.) Mechanism of serialization/deserialization connected 
 	     with saving to/loading form the file.
 	1e.) Demonstration of typical scenarios contained in 
@@ -28,9 +30,9 @@
 	2a.) Storage operations
 		1.     Add new commodity
 		2.     Remove a commodity
-    		3.     Show list of the current commodities
+    	3.     Show list of the current commodities
    	   	4.     Check whether the commodity exists in the storage
-    	   	5.     Edit a commodity
+    	5.     Edit a commodity
 		
     	2b.) Customers operations
 		6.     Add new customer
@@ -50,7 +52,7 @@
     	2d.) Saving and loading data to\from file
 		17.    Save current condition of data to the file
 		18.    Load current condition of data from the file
-               	 Previous condition of data will be overwritten 
+               Previous condition of data will be overwritten 
 
    	2e.) EXIT
        	19.    Quit the program
