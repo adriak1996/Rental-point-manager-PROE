@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1519946583 source:d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\sources\commodity.cpp
+	<vector>
+	<iostream>
+	<string>
+	<cstring>
+	"../Headers/commodity.h"
+
+1519944377 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\commodity.h
+	"..\Headers\serialization.h"
+
+1519926483 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\serialization.h
+
+1519946583 source:d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\sources\customer.cpp
+	<vector>
+	<iostream>
+	<string>
+	"..\Headers\customer.h"
+
+1519944390 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\customer.h
+	"..\Headers\serialization.h"
+
+1519946502 source:d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\sources\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"..\Headers\rental.h"
+	"..\Headers\menu.h"
+
+1519944401 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\rental.h
+	<string>
+	<vector>
+	<algorithm>
+	<sstream>
+	<fstream>
+	"..\Headers\customer.h"
+	"..\Headers\commodity.h"
+	"..\Headers\register.h"
+	"..\Headers\serialization.h"
+
+1519944406 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\register.h
+	"..\Headers\serialization.h"
+
+1519946583 d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\headers\menu.h
+
+1519944411 source:d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\sources\register.cpp
+	<vector>
+	<iostream>
+	"..\Headers\register.h"
+
+1519944415 source:d:\studia\ii semestr\proe\skonczoneprojekty\projekt2\sources\rental.cpp
+	<vector>
+	<iostream>
+	<string>
+	<algorithm>
+	"..\Headers\rental.h"
+
