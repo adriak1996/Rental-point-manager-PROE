@@ -1,73 +1,71 @@
-##########################################################
- Manager of elegant clothes' rental point (CodeBlocks C++)
-##########################################################
 
-1) Assumptions
-	1a.) Simple console application written in C++
-	1b.) Ability to managing a sets of resources. 
+
+# Manager of elegant clothes' rental point (CodeBlocks C++)
+
+### 1. Assumptions ###
+  - Simple console application written in C++
+  - Ability to managing a sets of resources. 
 	     Lists of: commodities, customers and orders.
-	1c.) Implementation of two-level inheritance. 
-	     Commodity has 2 subtypes: Suit and Dress. 
-		Dress has 1 subtype: Wedding dress.
-	1d.) Mechanism of serialization/deserialization connected 
+  - Implementation of two-level inheritance. 
+	     Commodity has 2 subtypes: **Suit** and **Dress**. 
+		**Dress** has 1 subtype: **Wedding dress**.
+  - Mechanism of serialization/deserialization connected 
 	     with saving to/loading form the file.
-	1e.) Demonstration of typical scenarios contained in 
+  - Demonstration of typical scenarios contained in 
 	     one sequential presentation
-	1f.) Only special operation of save will save 
+  - Only special operation of save will save 
 	     the current condition of data to the file. 
 	     THERE IS NO AUTOSAVE after running any operations.
-	1g.) Only special operation of load will load 
+  - Only special operation of load will load 
 	     the current condition of data from the file. 
 	     THERE IS NO AUTOLOAD after launching new program.
-	1h.) The code of the application contains comments to 
+  - The code of the application contains comments to 
 	     the documentation written in Polish. 
 	     PLEASE IGNORE THESE COMMENTS
 	
-2) Functionality
-	Each user of application can use any of 19 operations. 
-	They are listed below.
+### 2. Functionality 
+  Each user of application can use any of 19 operations. 
+  They are listed below.
 	
-	2a.) Storage operations
-		1.     Add new commodity
-		2.     Remove a commodity
-    	     	3.     Show list of the current commodities
-   	   	4.     Check whether the commodity exists in the base 
-    		5.     Edit a commodity
+  - Storage operations
+		- Add new commodity
+		- Remove a commodity
+    	- Show list of the current commodities
+    	- Check whether the commodity exists in the base 
+    	- Edit a commodity
 		
-    	2b.) Customers operations
-		6.     Add new customer
-		7.     Remove a customer
-		8.     Show list of the current customers
-		9.     Check whether the customer exists in the base 
-		10.    Edit a customer's details
+  - Customers operations
+		- Add new customer
+		- Remove a customer
+		- Show list of the current customers
+		- Check whether the customer exists in the base 
+		- Edit a customer's details
 	
-    	2c.) Renting services operations
-		11.    Rent a commodity for a customer
-		12.    Take commodity from a customer
-		13.    Show list of the current renting services
-		14.    Show current stats of rental point's
-		15.    Demonstrate the tests of the rental system
-		16.    Clear all data from the base
+  - Renting services operations
+		- Rent a commodity for a customer
+		- Take commodity from a customer
+		- Show list of the current renting services
+		- Show current stats of rental point's
+		- Demonstrate the tests of the rental system
+		- Clear all data from the base
 	
-    	2d.) Saving and loading data to\from file
-		17.    Save current condition of data to the file
-		18.    Load current condition of data from the file
-                  Previous condition of data will be overwritten 
+  - Saving and loading data to\from file
+		-  Save current condition of data to the file
+		- Load current condition of data from the file 
+		 Previous condition of data will be overwritten 
 
-   	2e.) EXIT
-       	19.    Quit the program
+  - EXIT
+		- Quit the program
 	
 	
 	
-3) Credits
-   - 'el-gato'
+###  3. Credits
+   - *el-gato*
 
-   Other contribution:
-   - Materials from the website of the course 'Object-oriented programming'
+   ###  4. Other contribution
+   - Materials from the website of the course *Object-oriented programming*
 
+____________________________________________________________________________________
+*Written in Winter/Spring of the 2016*
 
-______________________________________________________________________________________________________________
-Written in Winter/Spring of the 2016
-
-DO NOT USE IN COMMERCIAL PURPOSES!!!
-______________________________________________________________________________________________________________
+**DO NOT USE IN COMMERCIAL PURPOSES!!!**
